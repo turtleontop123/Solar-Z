@@ -1,0 +1,17 @@
+local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/KeySystem2Lib/main/Lib.lua"))()
+Lib.Application = "HyperVisions"             -- <str>
+Lib.Tittle = "Hyper Visions"             -- <str>
+Lib.Description = "Pro script"           -- <str>
+Lib.Logo = nil                         -- <str | none>
+Lib.SaveKey = true                     -- <bool>
+Lib.SecureVersion = true                 -- <bool>
+local Data = Lib:ActiveKeySystem()            -- Activate key system
+
+if Data['Success'] then
+    print("Start")
+loadstring(game:HttpGet("https://pastefy.app/yifYmSyU/raw"))()
+    if Data["Premium"] then
+        print("Premium is Active")
+loadstring(game:HttpGet("https://pastefy.app/yifYmSyU/raw"))()
+    end
+end
